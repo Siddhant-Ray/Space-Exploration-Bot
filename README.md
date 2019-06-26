@@ -1,1 +1,9 @@
-# Astra
+# Space-Exploration-Bot
+
+Main Idea: 
+The aim is to build an prototype of a smart bot whose architecture is similar to a real time space bot. Sensors like ultrasonic sensors are used to detect obstacles by drawing an entire map of the range. Humidity and temperature sensor and magnetic field sensors will provide an update about the surroundings conditions based on which an analysis can be drawn on how extreme the environment condition is.
+
+Technology Stack
+
+Raspberry PI is the main controller of the bot which will take the data from the base station given by the operator. Two Arduino UNOs are attached to the bot to carry out the various functionalities. The first Arduino will monitor the controlling of the bot along with an ultrasonic sensor attached to the map the entire place. An L293D motor driver is also attached to the bot to control the motors according to the movement instruction. Using the same mapping the data the bot will then traverse autonomously. It will send the mapping data back to raspberry Pi which will send the data back to base station and will be displayed on a GUI. The other Arduino will control the robotic arm movement of the bot. The arm is be attached to a PWM motor driver to control the servo motors. This arm can be used to retrieve objects and research particles like soil, stone, fluids and other stationary objects. The arm will be semi-autonomous and will be controlled using the user at the base station and the data would flow through the R pi to the arduino. This arduino will also have a sensors attached to it like gas sensors, humidity sensors, magnetometer to carry out the analysis of properties of the area. There will be a camera attached to the bot to give live video feed which can be again viewed on the base station and can be used to carry out image processing.
+

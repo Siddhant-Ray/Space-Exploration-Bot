@@ -1,0 +1,1 @@
+normal conditions ('extreme conditions, coordinates are', 'x    515.0\ny    412.0')normal conditions ('extreme conditions, coordinates are', 'x    219.0\ny     56.0')
