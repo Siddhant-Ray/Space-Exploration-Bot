@@ -3,7 +3,7 @@ import pycda
 from pycda import CDA, load_image
 
 cda = CDA()
-image = load_image('/home/sethiamayank14/PycharmProjects/Astra/PyCDA-master/pycda/sample_imgs/holdout_tile.pgm')
+image = load_image('images/holdout_tile.pgm')
 prediction = cda.get_prediction(image, verbose=True)
 # print(prediction)
 # prediction.show()
